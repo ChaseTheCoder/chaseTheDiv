@@ -6,9 +6,13 @@ In this project I use React.js, Bootstrap, SASS, HTML, and CSS.
 
 ## Why
 
-I bridge the gap between creativity and technology. Sometimes you just need to get a design out of your head throught he power of code.
+I bridge the gap between creativity and technology. Sometimes you just need to get a design out of your head throught he power of code.git add
 
-In the project directory, you can run:
+## Copy this project
+
+Copying is a sign of admiration. Admire my art.
+
+You can run:
 
 ### `npm start`
 
