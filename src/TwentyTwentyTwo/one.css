@@ -1,11 +1,18 @@
-.one {
-  font-family: 'DM Sans', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  /* background-color: aqua; */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.art-one {
+  background-color: black;
 }
 
-.title-text {
-  font-weight: 900;
-  font-size: 8rem;
-  line-height: 0%;
+.neon-text {
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  color: #fff;
+  text-shadow:     
+    0 0 7px rgb(106, 250, 255),
+    0 0 10px rgb(106, 250, 255),
+    0 0 21px rgb(154, 252, 255),
+    0 0 42px rgb(154, 252, 255),
+    0 0 82px rgb(154, 252, 255),
+    0 0 92px rgb(154, 252, 255);
 }

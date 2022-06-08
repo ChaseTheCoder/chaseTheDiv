@@ -1,0 +1,11 @@
+.art-card{
+  border: none solid rgb(135, 0, 0);
+  box-shadow: 2px 5px 5px 2px rgb(210, 210, 210);
+  margin: 1rem 1rem 0 1rem;
+  background-color: #fff;
+  height: 80%;
+}
+
+.card-text {
+  line-height: 1rem;
+}
