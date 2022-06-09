@@ -3,20 +3,21 @@ import './one.css';
 import ArtCard from '../common/ArtCard';
 
 export default function One() {
+
   return (
-    <div class="container-fluid">      
-      <div class="row">
+    <div className="container-fluid">      
+      <div className="row">
         <ArtCard
           title="Neon Divvv"
           date="2022"
           medium="CSS &amp; Bootstrap on HTML"
           description="Manipulating text-shadow css to illuminate text to resemble a neon sign."
         />
-        <div class="col-12 col-md-8 art art-one">
-          <div class="text-div text-center h-100">
-            <div class="neon-text-div w-100">
-              <h1 class="neon-text">Chase The</h1>
-              <h1 class="neon-text">Coder</h1>
+        <div className="col-12 col-md-8 art art-one">
+          <div className="text-div text-center h-100">
+            <div className="neon-text-div w-100">
+              <h1 className="neon-text">Chase The</h1>
+              <h1 className="neon-text">Coder</h1>
             </div>
           </div>
         </div>
