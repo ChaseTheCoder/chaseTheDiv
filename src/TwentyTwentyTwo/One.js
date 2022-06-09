@@ -14,7 +14,7 @@ export default function One() {
         />
         <div class="col-12 col-md-8 art art-one">
           <div class="text-div text-center h-100">
-            <div class="neon-text-div">
+            <div class="neon-text-div w-100">
               <h1 class="neon-text">Chase The</h1>
               <h1 class="neon-text">Coder</h1>
             </div>

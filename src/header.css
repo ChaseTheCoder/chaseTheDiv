@@ -1,8 +1,32 @@
 .header-div {
   font-family: 'Poppins', sans-serif;
+  height: 20rem;
 }
 
 .title-text {
   font-weight: 900;
-  font-size: 8rem;
+  font-size: 6rem;
+  line-height: .9;
+}
+
+.sub-text {
+  font-size: 2rem;
+  line-height: .9;
+}
+
+@media only screen and (max-width: 950px){
+  .title-text {
+    font-size: 5rem;
+  }
+  .sub-text {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 500px){
+  .title-text {
+    font-size: 4rem;
+  }
+  .sub-text {
+    font-size: 1rem;
+  }
 }

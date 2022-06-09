@@ -1,4 +1,36 @@
-.navbar {
+.navbar-div {
   font-family: 'DM Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
+  background-color: linear-gradient(#fff, rgba(255, 255, 255, 0.2));
+  position: sticky;
+  height: 25%;
+  padding: 0;
 }
+
+.navbar-div ul {
+  list-style-type: none;
+  display:flex;
+  justify-content: center;
+}
+.navbar-div ul li {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+@media only screen and (max-width: 720px) {
+  .title {
+    font-size: 1.25rem;
+  }
+  .navbar-div ul li {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  .navbar-div ul {
+    padding: 0;
+
+  }
+}
+

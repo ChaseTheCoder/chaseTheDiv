@@ -3,20 +3,18 @@ import './nav.css';
 
 export default function Nav() {
   return (
-      <nav class="navbar navbar-expand-sm">
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/chaseTheCoder">github</a>
-            </li>
-            <li class="nav-item">
-              <p class="navbar-brand pl-3">ChaseTheDiv</p>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.linkedin.com/in/chasethecoder/">linkedin</a>
-            </li>
-          </ul>
-        </div>
+      <nav class="navbar-div">
+        <ul class="align-items-center h-100">
+          <li>
+            <a href="https://github.com/chaseTheCoder">github</a>
+          </li>
+          <li>
+            <a href="https://chasethecoder.dev/" class="title">Chase The Coder</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/chasethecoder/">linkedin</a>
+          </li>
+        </ul>
     </nav>
   );
 }
