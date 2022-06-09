@@ -3,7 +3,7 @@ import './header.css';
 
 export default function Header() {
   return (
-    <div class="container-fluid">      
+    <div class="container-fluid header">      
       <div class="row header-div">
         <div class="col-12 col-md-4 my-auto text-center">
           <p class="title-text">The Div Gallery</p>

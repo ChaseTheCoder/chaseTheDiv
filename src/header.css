@@ -1,6 +1,11 @@
+.header{
+  padding-bottom: 2rem;
+}
+
 .header-div {
   font-family: 'Poppins', sans-serif;
-  height: 20rem;
+  height: 25rem;
+  background-color: #000;
 }
 
 .title-text {
@@ -12,6 +17,10 @@
 .sub-text {
   font-size: 2rem;
   line-height: .9;
+}
+
+.title-text, .sub-text {
+  color: #fff;
 }
 
 @media only screen and (max-width: 950px){
