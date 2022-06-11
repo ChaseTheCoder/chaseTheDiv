@@ -13,7 +13,7 @@ export default function One() {
           medium="CSS &amp; Bootstrap on HTML"
           description="Manipulating text-shadow css to illuminate text to resemble a neon sign."
         />
-        <div className="col-12 col-md-8 art art-one">
+        <div className="col-12 col-lg-8 order-1 order-lg-2 art art-one">
           <div className="text-div text-center h-100">
             <div className="neon-text-div w-100">
               <h1 className="neon-text">Chase The</h1>

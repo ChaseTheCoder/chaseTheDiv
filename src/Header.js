@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="container-fluid header">      
       <div className="row header-div">
-        <div className="col-12 col-md-4 my-auto text-center">
+        <div className="col-12 col-md-4 my-auto text-center title-div">
           <p className="title-text">The Div Gallery</p>
         </div>
         <div className="col-12 col-md-8 my-auto text-center">

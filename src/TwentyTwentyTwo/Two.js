@@ -12,7 +12,7 @@ export default function Two() {
           medium="CSS &amp; Bootstrap on HTML"
           description="Purple rain."
         />
-        <div className="col-12 col-md-8 art art-two">
+        <div className="col-lg-8 order-1 order-lg-2 art art-two">
         </div>
       </div>
     </div>

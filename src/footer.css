@@ -1,3 +1,11 @@
-.footer-link {
+footer {
+  padding-top: 8px;
+}
+
+/* .footer-link {
   text-decoration: underline;
+} */
+
+.footer-text {
+  font-size: .75rem;
 }
