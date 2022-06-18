@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './one.css';
+import './neon.css';
 import ArtCard from '../common/ArtCard';
 
 
@@ -27,7 +27,7 @@ export default function One() {
               <h1 id="neonText" className={isActive ? 'neon-text-on' : 'neon-text-off'}>Coder</h1>
             </div>
             <div className="pt-4">
-              <button className="neon-button" onClick={handleClick}>On/off</button>
+              <button className="neon-button" onClick={handleClick} aria-label="turn animated neon sign on and off">On/off</button>
             </div>
           </div>
         </div>

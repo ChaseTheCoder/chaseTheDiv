@@ -1,0 +1,16 @@
+.art-two {
+  background-color: blueviolet;
+  animation: rain 0.4s linear infinite;
+  opacity: 0;
+}
+@keyframes rain {
+  0% {
+      background-position: 0 0;
+      opacity: 1;
+  }
+
+  100% {
+      background-position: 8% 80%;
+      opacity: 1;
+  }
+}

@@ -12,11 +12,33 @@
   font-weight: 900;
   font-size: 6rem;
   line-height: .9;
+  animation: moveToRight 2s ease-in-out;
+  animation-delay: 10ms;
+}
+
+@keyframes moveToRight {
+  0% {
+      transform: translateX(-600px);
+  }
+  100% {
+      transform: translateX(0px);
+  }
 }
 
 .sub-text {
   font-size: 2rem;
   line-height: .9;
+  animation: moveToRight 4s ease-in-out;
+  animation-delay: 20ms;
+}
+
+@keyframes moveToRight {
+  0% {
+      transform: translatey(600px);
+  }
+  100% {
+      transform: translatey(0px);
+  }
 }
 
 .title-text, .sub-text {

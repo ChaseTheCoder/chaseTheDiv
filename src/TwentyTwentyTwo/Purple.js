@@ -1,5 +1,5 @@
 import React from 'react';
-import './two.css';
+import './purple.css';
 import ArtCard from '../common/ArtCard';
 
 export default function Two() {

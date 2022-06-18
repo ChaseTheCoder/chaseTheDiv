@@ -1,16 +1,16 @@
 import Nav from './Nav';
 import Header from './Header';
 import Footer from './Footer';
-import One from './TwentyTwentyTwo/One';
-import Two from './TwentyTwentyTwo/Two';
+import Neon from './TwentyTwentyTwo/Neon';
+import Purple from './TwentyTwentyTwo/Purple';
 
 function App() {
   return (
     <div className="App">
       <Nav/>
       <Header/>
-      <Two/>
-      <One/>
+      <Purple/>
+      <Neon/>
       <Footer/>
     </div>
   );

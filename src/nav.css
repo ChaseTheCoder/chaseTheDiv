@@ -13,6 +13,11 @@
 .div-nav-link {
   color: #fff;
 }
+
+.div-nav-link:hover {
+  color: #fff;
+}
+
 .navbar-div ul {
   list-style-type: none;
   display:flex;
