@@ -12,7 +12,7 @@ export default function Nav() {
             <p className="title div-nav-link mt-3 mt-md-2" >Chase The Coder</p>
           </li>
           <li>
-            <a href="https://github.com/chaseTheCoder" to="route" target="_blank" rel="noopener noreferrer" className="div-nav-link" alt="exteral link to GitHub">github</a>
+            <a href="https://github.com/chaseTheCoder" to="route" target="_blank" rel="noopener noreferrer" className="div-nav-link" alt="exteral link to GitHub" tabIndex="0">github</a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/chasethecoder/" to="route" target="_blank" rel="noopener noreferrer" className="div-nav-link" alt="external link to LinkedIn profile" tabIndex="0">linkedin</a>

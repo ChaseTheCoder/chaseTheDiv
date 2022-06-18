@@ -18,3 +18,10 @@ body {
 .art {
   height: 20rem;
 }
+
+a:focus-visible, button:focus-visible, select:focus-visible {
+  outline-style: solid;
+  outline-color: rgb(0, 42, 255);
+  outline-width: 3px;
+  border-radius: 5px;
+}

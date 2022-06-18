@@ -28,16 +28,16 @@
 .sub-text {
   font-size: 2rem;
   line-height: .9;
-  animation: moveToRight 4s ease-in-out;
-  animation-delay: 20ms;
+  animation: moveToLeft 2s ease-in-out;
+  animation-delay: 100ms;
 }
 
-@keyframes moveToRight {
+@keyframes moveToLeft {
   0% {
-      transform: translatey(600px);
+      transform: translateX(900px);
   }
   100% {
-      transform: translatey(0px);
+      transform: translateX(0px);
   }
 }
 
