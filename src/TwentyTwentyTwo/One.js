@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './one.css';
 import ArtCard from '../common/ArtCard';
 
+
 export default function One() {
+  const [isActive, setIsActive] = useState(false);
+
+  const handleClick = event => {
+    // 👇️ toggle isActive state on click
+    setIsActive(current => !current);
+  };
 
   return (
     <div className="container-fluid">      
@@ -15,9 +22,12 @@ export default function One() {
         />
         <div className="col-12 col-lg-8 order-1 order-lg-2 art art-one">
           <div className="text-div text-center h-100">
-            <div className="neon-text-div w-100">
-              <h1 className="neon-text">Chase The</h1>
-              <h1 className="neon-text">Coder</h1>
+            <div className="neon-text-div w-100 pt-4 pt-md-0">
+              <h1 id="neonText" className={isActive ? 'neon-text-on' : 'neon-text-off'}>Chase The</h1>
+              <h1 id="neonText" className={isActive ? 'neon-text-on' : 'neon-text-off'}>Coder</h1>
+            </div>
+            <div className="pt-4">
+              <button className="neon-button" onClick={handleClick}>On/off</button>
             </div>
           </div>
         </div>
