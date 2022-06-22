@@ -1,8 +1,8 @@
 import React from "react";
-import './squares.css'
+import './hoverHeart.css'
 import ArtCard from '../common/ArtCard';
 
-export default function Square() {
+export default function HoverHeart() {
   return (
     <div className="container-fluid">
       <div className="row two">
