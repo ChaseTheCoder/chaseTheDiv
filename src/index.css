@@ -25,3 +25,9 @@ a:focus-visible, button:focus-visible, select:focus-visible {
   outline-width: 3px;
   border-radius: 5px;
 }
+
+.art-gallery {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
