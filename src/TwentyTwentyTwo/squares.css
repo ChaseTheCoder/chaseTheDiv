@@ -1,0 +1,69 @@
+.squares-div {
+  background-color: azure;
+}
+
+.squares-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.all-squares {
+  width: 10px;
+  margin-left: 3px;
+  margin-right: 10px;
+  border-radius: 10px;
+  transition: .2s;
+}
+
+.all-squares:hover {
+  transform: scale(1.5);
+}
+
+.all-squares:focus-visible {
+  transform: scale(1.5);
+}
+
+.square1, .square7 {
+  height: 65px;
+  margin-bottom: 90px;
+}
+
+.square2, .square6 {
+  height: 110px;
+  margin-bottom: 70px;
+}
+
+.square3, .square5 {
+  height: 125px;
+  margin-bottom: 35px;
+}
+
+.square4 {
+  height: 135px;
+}
+
+.square1 {
+  background-color: red;
+}
+.square2 {
+  background-color: orange;
+}
+.square3 {
+  background-color: yellow;
+}
+.square4 {
+  background-color: green;
+}
+.square5 {
+  background-color: blue;
+}
+.square6 {
+  background-color: purple;
+}
+.square7 {
+  background-color: violet;
+}

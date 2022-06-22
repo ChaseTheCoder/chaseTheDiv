@@ -2,14 +2,14 @@ import Nav from './Nav';
 import Header from './Header';
 import Footer from './Footer';
 import Neon from './TwentyTwentyTwo/Neon';
-import Purple from './TwentyTwentyTwo/Purple';
+import Squares from './TwentyTwentyTwo/Squares';
 
 function App() {
   return (
     <div className="App">
       <Nav/>
       <Header/>
-      <Purple/>
+      <Squares/>
       <Neon/>
       <Footer/>
     </div>
