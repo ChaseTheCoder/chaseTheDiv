@@ -9,7 +9,7 @@ export default function Header() {
           <p className="title-text">The Div Gallery</p>
         </div>
         <div className="col-12 col-md-8 my-auto text-center">
-          <p className="sub-text">Like an art gallary, but with divs.</p>
+          <p className="sub-text">Like an art gallery, but with divs.</p>
           <p className="sub-text">Touching the art encouraged.</p>
           <p className="sub-text">All keyboard accessible.</p>
         </div>
