@@ -3,6 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Neon from './TwentyTwentyTwo/Neon';
 import HoverHeart from './TwentyTwentyTwo/HoverHeart';
+import Scrolling from './TwentyTwentyTwo/Scrolling';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Nav/>
       <Header/>
       <div className="art-gallery">
+        <Scrolling/>
         <HoverHeart/>
         <Neon/>
       </div>
