@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   padding-top: 4rem;
   /* overflow-x: hidden; */
 }
@@ -19,7 +20,12 @@ body {
   height: 20rem;
 }
 
-a:focus-visible, button:focus-visible, select:focus-visible {
+button:hover, button:focus, input:focus {
+  outline: none;
+}
+
+
+a:focus-visible, button:focus-visible, input:focus-visible {
   outline-style: solid;
   outline-color: rgb(0, 42, 255);
   outline-width: 3px;
