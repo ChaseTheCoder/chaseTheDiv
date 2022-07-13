@@ -20,8 +20,8 @@ body {
   height: 20rem;
 }
 
-button:hover, button:focus, input:focus {
-  outline: none;
+button:hover, button:focus, input:focus, input:hover {
+  outline: none;  
 }
 
 

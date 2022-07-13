@@ -1,6 +1,5 @@
 .scrolling2 {
   padding: 0;
-  border: solid gainsboro;
   background: linear-gradient(232deg, #4effe1, #f875ff, #f200ff);
   background-size: 600% 600%;
 
@@ -26,10 +25,12 @@
 }
 
 .transparentInput {
-  height: 11%;
+  height: 13%;
   width: 100%;
+  border-radius: 0;
   border: none;
   padding-top: 10px;
+  margin: -2;
   text-align: center;
   border: none;
   position: relative;
@@ -37,7 +38,7 @@
 }
 
 .transparentText {
-  height: 89%;
+  height: 90%;
   font-family: 'Chivo', sans-serif;
   font-size: 150px; 
   font-weight: bold;

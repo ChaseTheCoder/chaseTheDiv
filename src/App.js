@@ -4,6 +4,7 @@ import Footer from './Footer';
 import Neon from './TwentyTwentyTwo/Neon';
 import HoverHeart from './TwentyTwentyTwo/HoverHeart';
 import Scrolling from './TwentyTwentyTwo/Scrolling';
+import NightDay from './TwentyTwentyTwo/NightDay'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Nav/>
       <Header/>
       <div className="art-gallery">
+        <NightDay/>
         <Scrolling/>
         <HoverHeart/>
         <Neon/>
