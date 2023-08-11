@@ -9,7 +9,7 @@ export default function Nav() {
             <img width="50" src={process.env.PUBLIC_URL + "/iconCTC500.png"} alt="Chase The Coder's icon" />
           </li> */}
           <li>
-            <p className="title div-nav-link mt-3 mt-md-2" >Chase The Coder</p>
+            <h1 className="title div-nav-link mt-3 mt-md-2" >Chase The Coder</h1>
           </li>
           <li>
             <a href="https://github.com/chaseTheCoder" to="route" target="_blank" rel="noopener noreferrer" className="div-nav-link" alt="exteral link to GitHub" tabIndex="0">github</a>

@@ -6,12 +6,12 @@ export default function Header() {
     <div className="container-fluid header">      
       <div className="row header-div">
         <div className="col-12 col-md-4 my-auto text-center title-div">
-          <p className="title-text">The Div Gallery</p>
+          <h2 className="title-text">The Div Gallery</h2>
         </div>
         <div className="col-12 col-md-8 my-auto text-center">
-          <p className="sub-text">Like an art gallery, but with divs.</p>
-          <p className="sub-text">Touching the art encouraged.</p>
-          <p className="sub-text">All keyboard accessible.</p>
+          <h3 className="sub-text">Like an art gallery, but with divs.</h3>
+          <h3 className="sub-text">Touching the art encouraged.</h3>
+          <h3 className="sub-text">All keyboard accessible.</h3>
         </div>
       </div>
     </div>

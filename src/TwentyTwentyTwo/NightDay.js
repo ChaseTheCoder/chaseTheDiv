@@ -24,7 +24,7 @@ export default function nightDay() {
           description="The artist toggles with colors that represent night and day."
         />
         <div id="night-day-art" className="col-lg-8 order-1 order-lg-2 art night-day-art">
-          <input type="checkbox" id="switch" onClick={toggle} tabindex="0"/><label for="switch">Toggle</label>
+          <input aria-labelledby="switchLable" type="checkbox" id="switch" onClick={toggle} tabindex="0"/><label id="switchLabel" for="switch">Toggle</label>
         </div>
       </div>
     </div>
