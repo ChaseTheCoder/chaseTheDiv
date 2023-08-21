@@ -6,13 +6,13 @@
   align-items: center;
 }
 
-input[type=checkbox]{
+.inputDayNight {
   height: 0;
   width: 0;
   visibility: hidden;
 }
 
-label {
+.labelNightDay {
   cursor: pointer;
   text-indent: -9999px;
   width: 250px;
@@ -24,7 +24,7 @@ label {
   position: relative;
 }
 
-label:after {
+.labelNightDay:after {
   content: '';
   position: absolute;
   top: 5px;
@@ -37,7 +37,7 @@ label:after {
   transition: 0.75s;
 }
 
-input:checked + label:after {
+.inputDayNight:checked + .labelNightDay:after {
   left: calc(100% - 5px);
   transform: translateX(-100%);
   transition: 0.75s;
@@ -48,13 +48,13 @@ input:checked + label:after {
   transition: .75s;
 }
 
-.night-mode label {
+.night-mode form .labelNightDay {
   background: rgb(254, 254, 242);
   transition: .75s;
 
 }
 
-.night-mode label:after {
+.night-mode form .labelNightDay:after {
   background: #f7fca3;
   transition: .75s;
 }

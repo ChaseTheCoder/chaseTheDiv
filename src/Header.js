@@ -11,7 +11,7 @@ export default function Header() {
         <div className="col-12 col-md-8 my-auto text-center">
           <h3 className="sub-text">Like an art gallery, but with divs.</h3>
           <h3 className="sub-text">Touching the art encouraged.</h3>
-          <h3 className="sub-text">All keyboard accessible.</h3>
+          <h3 className="sub-text">Keyboard accessible.</h3>
         </div>
       </div>
     </div>

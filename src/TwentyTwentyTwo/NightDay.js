@@ -6,7 +6,7 @@ export default function nightDay() {
   
   const toggle = (event) => {
     let checkBox = document.getElementById("switch");
-    let switchToggle = document.getElementById("night-day-art");
+    let switchToggle = document.getElementById("nightDayArt");
     if(checkBox.checked === true){
       switchToggle.className += " night-mode";
     } else {
@@ -23,8 +23,19 @@ export default function nightDay() {
           medium="CSS &amp; Bootstrap on HTML"
           description="The artist toggles with colors that represent night and day."
         />
-        <div id="night-day-art" className="col-lg-8 order-1 order-lg-2 art night-day-art">
-          <input aria-labelledby="switchLable" type="checkbox" id="switch" onClick={toggle} tabindex="0"/><label id="switchLabel" for="switch">Toggle</label>
+        <div id="nightDayArt" className="col-lg-8 order-1 order-lg-2 night-day-art">
+          <form>
+            {/* <input type="checkbox" id="switch" onClick={toggle} tabindex="0" className='inputDayNight'/><label for="switch">Toggle</label> */}
+            <input 
+              type="checkbox"
+              className='inputDayNight'
+              id="switch" 
+              // aria-disabled="true" 
+              onClick={toggle}
+              tabindex="0"  
+            />
+            <label for="switch" className='labelNightDay'>Toggle</label>
+          </form>
         </div>
       </div>
     </div>
