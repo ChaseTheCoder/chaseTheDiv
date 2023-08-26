@@ -4,6 +4,8 @@
 
 In this project I use React.js, Bootstrap, SASS, HTML, and CSS.
 
+To deploy, I use the gh-pages pacakge.
+
 ## Why
 
 I bridge the gap between creativity and technology. Sometimes you just need to get a design out of your head throught he power of code.git add
@@ -12,9 +14,19 @@ I bridge the gap between creativity and technology. Sometimes you just need to g
 
 Copying is a sign of admiration. Admire my art.
 
-You can run:
+## Commands
 
-### `npm start`
+To run locally:
+
+### `npm run start`
+
+To build:
+
+### `npm run predeploy` or `npm run build`
+
+To deploy:
+
+### `npm run deploy`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
